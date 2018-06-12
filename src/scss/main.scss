@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'utilities';
+
+body {
+  background-color: $color-teal-base;
+  color: $color-text;
+}
+
+
+h1,h2 {
+  text-align: center;
+
+}
+.foo {
+  @include absolute(0, 0, auto, auto);
+}
+
+.Tour {
+  display: flex;
+}
