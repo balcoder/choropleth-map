@@ -19,7 +19,7 @@
     "babel"
   ],
   "scripts": {
-    "clean":  "rimraf dist/{css/*,js/*,js-min/*,images/*} && rimraf es5/js/*",
+    "clean": "rimraf dist/{css/*,js/*,js-min/*,images/*} && rimraf es5/js/*",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
     "scss": "node-sass --output-style compressed -o dist/css src/scss",
     "lint": "prettier --single-quote --trailing-comma es5 --write dist/js/**/*.js || true",
@@ -46,7 +46,7 @@
     "browser-sync": "^2.12.8",
     "imagemin-cli": "^3.0.0",
     "mkdirp": "^0.5.1",
-    "node-sass": "^3.7.0",
+    "node-sass": "^4.9.0",
     "npm-run-all": "^2.1.1",
     "onchange": "^2.4.0",
     "postcss-cli": "^2.5.2",
